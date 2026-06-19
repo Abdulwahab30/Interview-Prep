@@ -1,0 +1,13 @@
+RAG
+Retrieval Augmented Generation
+    Indexing 
+        Doc loading,
+        splitting, (chunks to fit context window limit of model)[chunk charachters, chunk overlap(increases the number of splits) ]
+        embedding, (vector representation: closeness between 2 vectors: Dot product, cosine similarity or euclidean distance)
+            cosine similarity preferred: a.b = |a| |b| cos@  (dot product of a,b / product of magnitudes of a,b)
+            two close vectors will have a smaller angle difference which will give a high cosine value as when angle inceases cos decrases
+        storing (vector databases are optimized for semantically related answers to the query)
+    Retrieval
+        responsible for retrieving the most relevant and diverse chunks of data, each chunk must contribute new and valuable info 
+
+    Generation
