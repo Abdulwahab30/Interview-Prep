@@ -1,0 +1,50 @@
+
+## Title
+
+**Primary:**
+`AI/ML Engineer | RAG Systems, LLM Apps & Computer Vision`
+
+**Alternates to test:**
+- `RAG & LLM Engineer | Python, FastAPI, Vector Search`
+- `AI/ML Engineer — Production RAG Pipelines & Computer Vision`
+
+(Upwork titles cap around 70 characters — all three fit comfortably and front-load your strongest keywords for search.)
+
+## Overview
+
+I build production-grade AI systems — from retrieval-augmented generation (RAG) pipelines to real-time computer vision — that go beyond demos and actually hold up under real usage.
+
+My core focus is RAG and LLM applications. I've designed and shipped multiple end-to-end systems covering the full pipeline: document parsing, chunking strategy, embedding, hybrid retrieval, cross-encoder reranking, and grounded LLM generation — served through FastAPI and containerized with Docker.
+
+A few examples of what I've built:
+- **NB-LLM** — a PDF knowledge base with parent-child chunking, BGE embeddings, cross-encoder reranking, semantic caching, and real-time streamed answers.
+- **Doc Lens** — multi-document RAG with exact page citations, hybrid vector + full-text search (RRF fusion), and vision-LLM-generated figure descriptions, with Celery-based ingestion at scale.
+- **YT-Assistant** — conversational RAG over YouTube transcripts with timestamp-linked answers and per-user data isolation via Firebase.
+
+On the computer vision side, I've built real-time face recognition (InsightFace/ArcFace) and YOLOv8-based object detection and tracking systems with live hardware integration (gimbal cameras), which I also do professionally in my current role.
+
+**What I bring to a project:**
+- End-to-end ownership: data ingestion → retrieval → generation → API → deployment
+- Practical performance tuning (latency, cost, retrieval precision) — not just "make it work," but make it work well
+- Comfortable working across the modern AI stack: ChromaDB, Qdrant, PostgreSQL, Redis, sentence-transformers, OpenRouter
+
+If you need a RAG system that actually retrieves the right context, an LLM-powered app that's grounded and reliable, or a computer vision pipeline that runs in real time — let's talk about what you're building.
+
+## Skills (tags)
+
+1. Python
+2. FastAPI
+3. Retrieval Augmented Generation (RAG)
+4. LLM Application Development
+5. Prompt Engineering
+6. Vector Databases (ChromaDB / Qdrant)
+7. Embeddings / Sentence Transformers
+8. NLP
+9. Computer Vision
+10. PyTorch
+11. YOLOv8 / Object Detection
+12. OpenCV
+13. Docker
+14. PostgreSQL
+15. REST API Development
+
