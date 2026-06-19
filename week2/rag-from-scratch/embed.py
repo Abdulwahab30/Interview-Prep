@@ -4,7 +4,8 @@ import numpy as np
 
 def load_document(file_path):
     with open(file_path, 'r',encoding='utf-8') as f:
-        text= f.read()
+        text = f.read()
+    return text
 
 def split_text_into_chunks(text):
     raw_chunks = text.split('\n\n')
