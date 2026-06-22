@@ -1,9 +1,0 @@
-num=[5,2,9,1,7]
-size=len(num)
-a = None
-for i in range(size):
-    if a == None:
-        a=num[i]
-    if num[i]<a:
-        a=num[i]
-print(f"Smallewst in the list is {a}")
