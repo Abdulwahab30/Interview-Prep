@@ -1,0 +1,412 @@
+1. Local LLM/RAG Pipeline Developer
+
+Seeking a developer to create a local LLM/RAG pipeline for healthcare document automation.
+The solution must be HIPAA-compliant and air-gapped, without using cloud LLM APIs or third-party data processors. 
+Responsibilities include developing a secure and efficient system for document processing and ensuring compliance with healthcare regulations.
+
+
+2. Rag Chatbot Development
+
+We are seeking an experienced developer to create a chatbot that can engage in conversations using a retrieval-augmentation generation (RAG) model.
+The ideal candidate will have experience in AI and chatbot development, with a strong understanding of natural language processing.
+The project involves designing and implementing a chatbot that can retrieve information from a database and generate human-like responses. 
+The candidate should be able to work independently and deliver high-quality results within the specified timeframe.
+
+3. AI Engineer for Langchain and RAG
+
+We are seeking an AI engineer with experience in Langchain, RAG pipelines, and AI agents in production. The ideal candidate will have a strong background in AI engineering and be able to work effectively in a production environment. Responsibilities include developing and implementing AI solutions using Langchain and RAG pipelines, and ensuring the smooth operation of AI agents in production.
+
+4. AI Engineer (LLM / RAG / Conversational AI)
+
+
+We are looking for an experienced AI/LLM Engineer to help build the AI logic behind a modern conversational SaaS platform focused on AI-powered iMessage automation, lead qualification, follow-up, and appointment booking.
+
+This is NOT a simple chatbot project or GPT wrapper.
+
+The platform allows users to describe what they want their AI employee to do (qualify leads, book appointments, follow up, answer questions, etc.), and the system intelligently generates workflows, logic, and tool connections automatically.
+
+Examples:
+• User uploads website/documents
+• AI learns about the business
+• AI generates qualification logic
+• AI creates follow-up flows
+• AI connects tools like calendars and CRM actions
+• AI builds editable workflow structures from prompts
+
+Strong experience with the following is very important:
+• OpenAI / Claude APIs
+• AI agents & tool/function calling
+• RAG systems
+• Workflow orchestration
+• Vector databases
+• Prompt architecture
+• Conversational AI systems
+• LangChain / LangGraph (preferred)
+• SaaS product development
+
+Bonus if you have experience with:
+• CRM automations
+• Appointment-setting systems
+• Messaging platforms
+• AI workflow builders
+• Multi-agent systems
+
+We are looking for someone product-minded who understands how to build reliable AI systems for real business use cases — not just basic AI chatbots.
+
+To filter automated proposals, please start your proposal with the word:
+“BluFlo”
+
+and include:
+
+1. Relevant AI products you’ve built
+2. Experience with AI agents or workflow generation
+3. Your preferred AI stack/tools
+4. Any demos, GitHub links, or screenshots if available
+
+
+5. RAG ChatBot developer
+
+Looking for a developer to build a minimal, production-ready RAG chatbot that answers questions from a document collection.
+
+Responsibilities:
+* Build RAG pipeline (ingestion, retrieval, response generation)
+* Integrate LLM API (e.g., OpenAI)
+* Set up vector database (Pinecone, FAISS, etc.)
+* Create REST API endpoint for queries
+* Ensure accuracy and system reliability
+
+Requirements:
+* Experience with RAG systems and LLM APIs
+* Knowledge of vector databases
+* Backend development (Python/FastAPI or Node.js)
+* Document processing (PDF/text)
+* Strong debugging and communication skills
+
+
+6. Basic AI Chatbot Setup for Website (PDF Knowledge Base)
+
+Hi,
+
+I’m looking for a developer to help me set up a simple AI chatbot for my website. This is a small project to improve customer support and reduce repetitive questions.
+
+The chatbot should use OpenAI API and be able to answer questions based on a PDF file that I will provide (product/service information).
+
+What I need:
+
+* Setup OpenAI API integration
+* Create a simple chatbot interface for website embedding
+* Use 1 PDF as a knowledge source (basic RAG setup or similar approach)
+* Store chat conversations (simple database or logging)
+* Help with basic deployment so it can run on my hosting
+
+Important Notes:
+
+* This is a small MVP project, not a complex enterprise system
+* Budget is fixed at $100
+* Code should be simple and maintainable
+* No advanced dashboard required at this stage
+
+Ideal Freelancer:
+
+* Experience with OpenAI API
+* Basic RAG / document-based chatbot experience
+* Comfortable with Node.js, FastAPI, or similar backend
+* Can deploy simple web apps
+
+Deliverables:
+
+1. Working chatbot integrated into website
+2. PDF-based Q&A functionality
+3. Basic conversation storage
+4. Deployment instructions or setup help
+
+Timeline:
+3–5 days preferred
+
+If this goes well, I may extend the project for more advanced automation and integrations later.
+
+7. RAG Chatbot for PDF Q&A + Short Analysis Report
+
+I need a freelancer to build a simple RAG chatbot for answering questions from 3 PDF files, along with a short analytical report on performance.
+
+8. AI Customer Support Chatbot with RAG Integration
+
+We are looking for an AI developer to build a custom AI-powered customer support assistant for our business using OpenAI or Claude APIs.
+The chatbot should be trained on our company documents, FAQs, and knowledge base using a RAG (Retrieval-Augmented Generation) system so it can provide accurate and contextual responses to customer questions.
+
+The solution should include:
+Requirements
+
+Integration with OpenAI GPT-4 or Claude API
+RAG pipeline using company PDFs, documents, or website content
+Conversational AI chatbot interface
+Source-based responses from uploaded documents
+Admin panel or simple upload system for updating documents
+Chat history support
+Basic authentication/login
+API integration with our existing website
+Responsive UI
+Preferred Tech Stack
+React frontend
+PHP or Node.js backend
+Vector database (Pinecone, ChromaDB, or FAISS)
+OpenAI / Claude integration
+
+Deliverables
+Fully functional AI chatbot
+Clean and documented code
+Deployment support
+Basic testing and bug fixes
+Setup instructions
+Ideal Developer
+We are looking for someone experienced with:
+OpenAI API
+Claude API
+RAG systems
+AI chatbot development
+SaaS integrations
+Workflow automation
+
+The goal is to create an intelligent support assistant that reduces manual customer support workload and improves response quality.
+
+
+9. AI Full-Stack Developer (RAG Chatbot + Next.js)
+
+We are looking for an experienced AI Full-Stack Developer to build and launch a production-ready web application with a RAG-powered chatbot and a modern Next.js frontend.
+
+Project Overview
+We are building an AI assistant that can answer user questions based on our own documents and knowledge base (not just general LLM responses).
+The application should provide accurate, source-grounded answers, clean UX, and scalable architecture for future growth.
+
+Scope of Work
+Build a RAG chatbot pipeline (ingestion, chunking, embeddings, retrieval, generation)
+Implement document ingestion for common formats (PDF, DOCX, TXT, web pages)
+Create a robust retrieval strategy (metadata filters, top-k, reranking optional)
+Integrate LLM APIs and prompt orchestration
+Build a polished Next.js frontend chat interface
+Implement authentication and user/session handling
+Add conversation history and basic admin controls
+Add observability (logging, error handling, analytics)
+Support deployment and environment setup
+
+Required Skills
+Strong experience with RAG architecture in production
+Strong Next.js (App Router preferred), React, TypeScript
+Experience with vector databases (e.g., Pinecone, Weaviate, pgvector, Chroma)
+Experience with LLM providers (OpenAI/Anthropic/etc.)
+Backend API design (Node.js/TypeScript preferred)
+Prompt engineering and evaluation for answer quality
+Familiarity with cloud deployment (Vercel/GCP/AWS)
+
+Nice to Have
+Experience with LangChain/LlamaIndex or similar frameworks
+Experience with streaming responses and real-time chat UX
+Knowledge of multi-tenant architecture and role-based access
+CI/CD and automated testing setup
+
+Deliverables
+Functional web app with:
+Next.js frontend
+RAG chatbot with source citations
+Document upload + indexing pipeline
+Auth + session management
+Clean, documented codebase
+Deployment guide and handoff documentation
+Initial quality test report (latency, relevance, failure cases)
+
+10. AI Engineer | RAG Pipelines · LangChain · Pinecone | Chatbot & Knowledge Base Systems
+
+We're a small consulting firm and over the years we've accumulated around 200 PDFs (client deliverables, market research, internal SOPs, case studies). Every week someone on the team is digging through old folders trying to find an answer that's already documented somewhere. I want to fix that.
+
+What I need is a simple internal chatbot. The team types a question, the bot answers using only our documents, and it cites which PDF and which page the answer came from so we can verify it. No making things up, no answering from general knowledge — only from our docs.
+
+What I'm looking for:
+
+Set up a vector DB (Pinecone preferred, open to alternatives)
+Ingest all 200 PDFs with proper chunking and metadata
+Build the retrieval pipeline using LangChain
+Use OpenAI (GPT-4o or similar) for the actual answer generation
+Supabase for auth and storing chat history per user
+A simple chat UI on the web (Next.js / React is fine), internal use only
+FastAPI backend
+Answers must include source PDF name + page number
+Should be comfortable with Python, RAG architecture, Pinecone, LangChain, OpenAI, Supabase, and the front-end side with Next.js / React / TypeScript. I don't need anything fancy on the UI, just clean and usable.
+
+Want to wrap this in about a week. If it goes well, we'll likely have a phase 2 (Slack integration, role-based access for different teams).
+
+Skills: Python, OpenAI, Pinecone, RAG, LangChain, FastAPI, Supabase, Next.js, React, TypeScript, Vercel AI SDK
+
+
+11. AI/ML Developer for Document Agent
+
+We are seeking an AI/ML developer to create a document-based agent. 
+The ideal candidate will have experience in natural language processing and machine learning to develop intelligent document handling systems. 
+Responsibilities include designing and implementing AI models,
+integrating with document management systems, and ensuring the agent can understand and process document content effectively.
+
+12. AI Developer Needed to Build Internal Knowledge Base Chatbot for Customer Support Team
+
+We operate a software company with over 15,000 active customers and a growing support team.
+
+Our customer support agents currently spend a significant amount of time searching through documentation, training materials, PDFs, SOPs, and internal knowledge bases to answer customer questions.
+
+We are looking for an experienced AI Developer to build an intelligent internal AI assistant that can instantly retrieve information from our company knowledge base and help our support team resolve tickets faster.
+
+Project Goals
+
+The AI assistant should:
+
+* Answer questions based on our internal documents
+* Search across PDFs, SOPs, training guides, and help center articles
+* Provide source references for every answer
+* Help support agents draft responses to customers
+* Suggest troubleshooting steps
+* Learn from newly uploaded documents
+* Reduce average ticket resolution time
+
+Existing Stack
+
+Our current tools include:
+
+* HubSpot
+* Notion
+* Google Drive
+* Slack
+* Zendesk
+
+We are open to recommendations regarding the AI architecture.
+
+Preferred Skills
+
+We're looking for someone experienced with:
+
+* OpenAI API
+* Claude API
+* LangChain
+* RAG Applications
+* Vector Databases
+* AI Chatbots
+* Custom AI Agents
+* NLP
+* LLM Integration
+* Workflow Automation
+* API Integrations
+* Python Development
+* AI SaaS Development
+
+Nice To Have
+
+Experience with:
+
+* Flowise
+* Ollama
+* Open WebUI
+* Self-Hosted AI
+* Supabase
+* Docker
+* VPS Deployment
+
+Deliverables
+
+* AI chatbot application
+* Document ingestion pipeline
+* Knowledge base indexing system
+* User-friendly web interface
+* Authentication system
+* Deployment and documentation
+
+Application Requirements
+
+Please include:
+
+1. Examples of RAG or AI chatbot projects you've built
+2. Your preferred tech stack
+3. How you would handle document indexing and retrieval
+4. Estimated timeline and budget
+
+Budget: Open based on experience and proposed solution.
+
+13. AI Workflow Engineer for Knowledge Platform
+
+We're looking for an experienced AI workflow engineer to help build an internal knowledge and content-generation system for a SaaS product.
+
+The project involves:
+
+* Designing a structured knowledge base
+* Organizing business knowledge into reusable formats
+* Building AI-powered content generation workflows
+* Storing and retrieving data from MongoDB
+* Creating a simple admin interface for managing content assets
+
+Current stack:
+* MongoDB
+* Firebase
+* GitHub
+
+Required experience:
+* Advanced LLM workflows
+* Prompt engineering
+* MongoDB
+* Python
+* API integrations
+
+Nice to have:
+* FastAPI
+* Content automation
+* Marketing workflow experience
+* RAG / knowledge-base systems
+
+Please include:
+1. A similar project you've built
+2. Your recommended architecture
+3. GitHub, portfolio, or case studies
+
+Screening question:
+In 3-5 sentences, explain how you would build a system that generates high-quality content from a company's internal knowledge without producing generic AI output.
+
+
+14. AI Agent Developer — RAG Knowledge Base & Client-Facing Agent Dashboard (GoHighLevel)
+
+Summary
+We run Level Up, a coaching and mentorship program that helps coaches, consultants, and service-based business owners scale their businesses and income online. Our program is delivered through GoHighLevel (GHL), which hosts our course content, client profiles, and CRM notes.
+
+We're looking for an experienced AI agent developer to build two interconnected systems for our members.
+
+SCOPE OF WORK
+
+1 - Knowledge base AI (course-aware chat agent)
+Ingest all existing course lessons, video recordings, transcripts, and program materials from our GHL portal and build a retrieval-augmented generation (RAG) knowledge base. This powers an in-portal chat agent that members can query - getting answers grounded in our content, strategies, and coaching methodology. The agent must also read individual client notes from GHL so responses can be personalised to each member's history and context.
+
+2 - Agent dashboard (9-agent suite)
+A clean dashboard inside the member portal displaying approximately 9 specialist AI agents. Members click an agent to open a dedicated chat interface. Planned agents include:
+- Visual clarity tool: help members build and refine their offer presentation
+- Sales agent: sales strategy, script coaching, DM and conversation support
+- Content agent: post ideas, copy, and content repurposing
+- Business model agent: pricing, packaging, and program structure
+- Marketing strategy agent: lead gen and outreach planning
+- Mindset and productivity agent: based on our program frameworks
+- Program delivery agent: onboarding, client experience, and retention
+- Tech stack agent: GHL, automations, and tools support
+- Weekly planning agent: goal-setting and accountability
+
+REQUIREMENTS
+- Proven experience building RAG systems and production AI agents (please share examples)
+- Strong GoHighLevel integration experience: API, custom values, contact notes, membership areas
+- Experience with vector databases and embedding pipelines (e.g. Pinecone, Weaviate, Supabase pgvector)
+- Familiarity with LLM orchestration tools (e.g. LangChain, LlamaIndex, or similar)
+- Ability to build or embed a clean, mobile-friendly dashboard UI within GHL or as a hosted page
+- Experience handling unstructured content (video transcripts, lesson recordings, PDFs)
+
+NICE TO HAVE
+- Experience with coaching or online education platforms
+- Familiarity with Make, Zapier, or n8n for GHL automation
+- Previous work embedding AI into membership or course environments
+
+TO APPLY - please include:
+- A brief description of a similar RAG or agent project you have shipped
+- Your recommended tech stack for this build
+- How you would approach the GHL integration and client note personalisation
+- Your estimated timeline and approach to phasing the work
+
+We're building this to genuinely transform how our members access our coaching methodology - 
+this isn't a generic chatbot. The right person will understand that context and bring thoughtful solutions.
