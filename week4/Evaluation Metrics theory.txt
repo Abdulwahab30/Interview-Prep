@@ -1,0 +1,10 @@
+Evaluation Metrics:
+Hit Rate@k:
+
+it evaluates, like forexample if i ask for where to learn loops in python and k is 3 so its top 3 chunks should have the correct ans from the book.
+
+Faithfullness:
+    it evaluates whether the model hallucinates or not. like it is not producing result on its own. Example if we share the earnings doc it shares the earning from the document and nothing more it shouldnt say that the earnings are expected to double next year looking at tthings because that is not in document.
+
+LLM as jusge:
+    In this we use a capable model like gpt 40 or claude 3.5 to judge the output of our model by giving it system prompts etc.

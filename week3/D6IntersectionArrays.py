@@ -3,7 +3,7 @@ def arrayIntersection(nums1, nums2):
     result=set()
     for i in nums2:
         if i in set1:
-            result.add(nums2[1])
+            result.add(nums2[i])
     fin=[result]
     print(fin)
 

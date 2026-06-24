@@ -10,7 +10,7 @@ def allDup(nums):
     
     for key,value in freq.items():
         if freq[key]>1:
-            result[key] = freq[value]
+            result[key] = value
     
     print(result)
 
