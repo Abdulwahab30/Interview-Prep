@@ -29,6 +29,8 @@ Just send me your PDFs and I'll handle everything from ingestion to deployment.
 Packages
 🔵 Basic🟡 Standard🔴 PremiumNameStarter ChatbotPro Knowledge BaseFull RAG SystemPrice$149$349$699Delivery3 days5 days8 daysPDFs supported1 PDFUp to 5 PDFsUp to 20 PDFsQ&A chatbot (API)✅✅✅Page citations in answers❌✅✅Hybrid search (vector + keyword)❌✅✅Cross-encoder reranking❌✅✅Multi-turn conversation memory❌✅✅Semantic cache (faster responses)❌❌✅Docker deployment❌❌✅Table & figure awareness❌❌✅Revisions123
 
+
+
 FAQs (add these to your gig)
 Q: What LLM will you use?
 

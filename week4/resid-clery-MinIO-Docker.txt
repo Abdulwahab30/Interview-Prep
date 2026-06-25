@@ -1,0 +1,24 @@
+Redis
+  - Problem solved: message broker + result backend for Celery — holds the queue of pending PDF-processing jobs and their status.
+  - If removed: Celery has nothing to dispatch tasks through; uploads would have to block the request thread for 10–90s, or you'd need another broker (RabbitMQ, SQS).      
+  - Interview line: "Redis is the queue Celery polls — it's how the upload endpoint hands off slow PDF processing to a background worker without blocking the HTTP
+  response."
+
+  Celery
+  - Problem solved: runs the Docling parse → chunk → embed → Qdrant-upsert pipeline asynchronously so the API stays responsive.
+  - If removed: ingestion would have to run synchronously in the FastAPI request (or you'd hand-roll your own background-task/threading system), and the Queued → Processing  → Ready status flow goes away.
+  - Interview line: "Celery is the worker that does the actual document ingestion in the background, off the request path, driven by jobs sitting in Redis."
+
+  MinIO
+  - Problem solved: durable, S3-compatible storage for the raw uploaded PDF bytes, separate from the database.
+  - If removed: you'd need to store PDFs somewhere else (local disk, real S3) — Postgres only holds metadata/chunks, never the raw file, so something has to hold the bytes 
+  or uploads can't be reprocessed.
+  - Interview line: "MinIO is a local S3 stand-in — it stores the raw PDF files so Postgres only has to carry metadata, and swapping to real AWS S3 later is just an env var  change."
+
+  Docker (Compose)
+  - Problem solved: spins up and networks Postgres, Redis, MinIO, and Qdrant together with one command, so the four infra dependencies don't need manual per-service        
+  installs.
+  - If removed: you'd have to install and run Postgres/Redis/MinIO/Qdrant natively on the host yourself (the README's manual-setup path) — more setup friction, no easy     
+  teardown/reset.
+  - Interview line: "Docker Compose is what lets me bring up the whole infra layer — Postgres, Redis, MinIO, Qdrant — with one command instead of installing four services  
+  by hand."
